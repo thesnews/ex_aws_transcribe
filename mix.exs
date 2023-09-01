@@ -42,12 +42,12 @@ defmodule ExAwsTranscribe.MixProject do
 
   defp deps do
     [
-      {:ex_aws, "~> 2.1.1"},
+      {:ex_aws, "~> 2.4"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:hackney, ">= 0.0.0", only: [:dev, :test]},
       {:poison, ">= 0.0.0", only: [:dev, :test]},
       {:sweet_xml, ">= 0.0.0", only: [:dev, :test]},
-      {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false},
+      {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false}
     ]
   end
 end
